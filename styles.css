@@ -16,8 +16,7 @@ background-color: blue;
 color:white;
 font-size:20px;}
 
-.project{
-text-align:center;}
+
 
 .experience{
 text-align:center;}
@@ -49,8 +48,39 @@ text-align:right;
 font-size:13px;
 color:red;}
 
-.project{font-family: 'Rubik', sans-serif;}
+
 
 .experience{font-family: 'Rubik', sans-serif;}
+
+.projecto{
+    background-color: black;
+  	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Kanit', sans-serif;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);}
+
+.contact{
+    background-color: black;
+  	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Kanit', sans-serif;
+	}
 
 
