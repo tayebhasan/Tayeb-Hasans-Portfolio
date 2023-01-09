@@ -53,6 +53,8 @@ color:red;}
 .experience{font-family: 'Rubik', sans-serif;}
 
 .projecto{
+    margin:15px;
+    border: 5px;
     background-color: black;
   	border: none;
   	color: white;
@@ -63,14 +65,11 @@ color:red;}
   	font-size: 16px;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Kanit', sans-serif;
-	margin: 0;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);}
+}
 
 .contact{
+    margin:15px;
+    border: 5px;
     background-color: black;
   	border: none;
   	color: white;
@@ -83,4 +82,24 @@ color:red;}
 	font-family: 'Kanit', sans-serif;
 	}
 
+.about{
+    
+    margin:15px;
+    border: 5px;
+    background-color: black;
+  	border: none;
+  	color: white;
+  	padding: 8px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Kanit', sans-serif;
+	}
 
+.donuts{
+    display:flex;
+   justify-content: center;
+    background-color:red;
+}
