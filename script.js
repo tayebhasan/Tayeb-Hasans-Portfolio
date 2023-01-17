@@ -8,7 +8,6 @@ $(".about").click(function() {
 });
 
 $(".home").click(function() {
-    $(".introduction").toggle();
-    (".home").hide();
-    
+    $(".introduction").hide();
+    $(".hlome").hide();
     });
