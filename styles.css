@@ -123,3 +123,28 @@ margin:15px;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Kanit', sans-serif;
 	}
+
+.emailz{
+    text-align:center;
+font-size: 25px;
+    font-family: 'Anybody', cursive;}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
