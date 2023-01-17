@@ -4172,7 +4172,32 @@ margin:15px;
   	font-size: 16px;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Kanit', sans-serif;
-	}</style></head>
+	}
+
+.emailz{
+    text-align:center;
+font-size: 25px;
+    font-family: 'Anybody', cursive;}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}</style></head>
     
     
         
@@ -4192,6 +4217,7 @@ margin:15px;
         
         <div class="introducer">
     <p class="introduction"> Hello, I am a Web Developer based out of Queens, New York. I love using my creativity to design and develop websites that are simple for users.</p> 
+            <p class="emailz"><a href="mailto:tayebhasanbusiness@gmail.com">Send Email</a></p>
             
             
             <br>
@@ -4209,15 +4235,23 @@ margin:15px;
     
 <script>
 /*__POPCODESTART__*/
+$(".emailz").hide();
 $(".introduction").hide();
 $(".experient").hide();
 $(".hlome").hide();
 $(".about").click(function () {
   $(".introduction").show();
   $(".hlome").show();
+  $(".emailz").hide();
 });
 $(".home").click(function () {
   $(".introduction").hide();
   $(".hlome").hide();
+  $(".emailz").hide();
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJoaWRlIiwiY2xpY2siLCJzaG93Il0sIm1hcHBpbmdzIjoiQUFBQUEsQ0FBQyxDQUFDLGVBQUQsQ0FBRCxDQUFtQkMsSUFBbkI7QUFDQUQsQ0FBQyxDQUFDLFlBQUQsQ0FBRCxDQUFnQkMsSUFBaEI7QUFDQUQsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZQyxJQUFaO0FBRUFELENBQUMsQ0FBQyxRQUFELENBQUQsQ0FBWUUsS0FBWixDQUFrQixZQUFXO0FBQ3pCRixFQUFBQSxDQUFDLENBQUMsZUFBRCxDQUFELENBQW1CRyxJQUFuQjtBQUNBSCxFQUFBQSxDQUFDLENBQUMsUUFBRCxDQUFELENBQVlHLElBQVo7QUFDSCxDQUhEO0FBS0FILENBQUMsQ0FBQyxPQUFELENBQUQsQ0FBV0UsS0FBWCxDQUFpQixZQUFXO0FBQ3hCRixFQUFBQSxDQUFDLENBQUMsZUFBRCxDQUFELENBQW1CQyxJQUFuQjtBQUNBRCxFQUFBQSxDQUFDLENBQUMsUUFBRCxDQUFELENBQVlDLElBQVo7QUFDQyxDQUhMIiwic291cmNlc0NvbnRlbnQiOlsiJChcIi5pbnRyb2R1Y3Rpb25cIikuaGlkZSgpO1xuJChcIi5leHBlcmllbnRcIikuaGlkZSgpO1xuJChcIi5obG9tZVwiKS5oaWRlKCk7XG5cbiQoXCIuYWJvdXRcIikuY2xpY2soZnVuY3Rpb24oKSB7XG4gICAgJChcIi5pbnRyb2R1Y3Rpb25cIikuc2hvdygpO1xuICAgICQoXCIuaGxvbWVcIikuc2hvdygpO1xufSk7XG5cbiQoXCIuaG9tZVwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiLmludHJvZHVjdGlvblwiKS5oaWRlKCk7XG4gICAgJChcIi5obG9tZVwiKS5oaWRlKCk7XG4gICAgfSk7Il19</script></body></html>
+$(".contact").click(function () {
+  $(".introduction").hide();
+  $(".emailz").show();
+  $(".hlome").show();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJoaWRlIiwiY2xpY2siLCJzaG93Il0sIm1hcHBpbmdzIjoiQUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhQyxJQUFiO0FBQ0FELENBQUMsQ0FBQyxlQUFELENBQUQsQ0FBbUJDLElBQW5CO0FBQ0FELENBQUMsQ0FBQyxZQUFELENBQUQsQ0FBZ0JDLElBQWhCO0FBQ0FELENBQUMsQ0FBQyxRQUFELENBQUQsQ0FBWUMsSUFBWjtBQUVBRCxDQUFDLENBQUMsUUFBRCxDQUFELENBQVlFLEtBQVosQ0FBa0IsWUFBVztBQUN6QkYsRUFBQUEsQ0FBQyxDQUFDLGVBQUQsQ0FBRCxDQUFtQkcsSUFBbkI7QUFDQUgsRUFBQUEsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZRyxJQUFaO0FBQ0FILEVBQUFBLENBQUMsQ0FBQyxTQUFELENBQUQsQ0FBYUMsSUFBYjtBQUNILENBSkQ7QUFNQUQsQ0FBQyxDQUFDLE9BQUQsQ0FBRCxDQUFXRSxLQUFYLENBQWlCLFlBQVc7QUFDeEJGLEVBQUFBLENBQUMsQ0FBQyxlQUFELENBQUQsQ0FBbUJDLElBQW5CO0FBQ0FELEVBQUFBLENBQUMsQ0FBQyxRQUFELENBQUQsQ0FBWUMsSUFBWjtBQUNBRCxFQUFBQSxDQUFDLENBQUMsU0FBRCxDQUFELENBQWFDLElBQWI7QUFDQyxDQUpMO0FBTUFELENBQUMsQ0FBQyxVQUFELENBQUQsQ0FBY0UsS0FBZCxDQUFvQixZQUFXO0FBQzNCRixFQUFBQSxDQUFDLENBQUMsZUFBRCxDQUFELENBQW1CQyxJQUFuQjtBQUNBRCxFQUFBQSxDQUFDLENBQUMsU0FBRCxDQUFELENBQWFHLElBQWI7QUFDQUgsRUFBQUEsQ0FBQyxDQUFDLFFBQUQsQ0FBRCxDQUFZRyxJQUFaO0FBQ0gsQ0FKRCIsInNvdXJjZXNDb250ZW50IjpbIiQoXCIuZW1haWx6XCIpLmhpZGUoKTtcbiQoXCIuaW50cm9kdWN0aW9uXCIpLmhpZGUoKTtcbiQoXCIuZXhwZXJpZW50XCIpLmhpZGUoKTtcbiQoXCIuaGxvbWVcIikuaGlkZSgpO1xuXG4kKFwiLmFib3V0XCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuaW50cm9kdWN0aW9uXCIpLnNob3coKTtcbiAgICAkKFwiLmhsb21lXCIpLnNob3coKTtcbiAgICAkKFwiLmVtYWlselwiKS5oaWRlKCk7XG59KTtcblxuJChcIi5ob21lXCIpLmNsaWNrKGZ1bmN0aW9uKCkge1xuICAgICQoXCIuaW50cm9kdWN0aW9uXCIpLmhpZGUoKTtcbiAgICAkKFwiLmhsb21lXCIpLmhpZGUoKTtcbiAgICAkKFwiLmVtYWlselwiKS5oaWRlKCk7XG4gICAgfSk7XG5cbiQoXCIuY29udGFjdFwiKS5jbGljayhmdW5jdGlvbigpIHtcbiAgICAkKFwiLmludHJvZHVjdGlvblwiKS5oaWRlKCk7XG4gICAgJChcIi5lbWFpbHpcIikuc2hvdygpO1xuICAgICQoXCIuaGxvbWVcIikuc2hvdygpO1xufSk7Il19</script></body></html>
